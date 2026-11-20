@@ -1,6 +1,9 @@
 # GTA 6 Meme — Medical Bill from Leonida General Hospital
 
 [![make.fun](https://make.fun/badge.svg)](https://make.fun/competitions/gta6-meme-x-01)
+[![make.fun](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/competitions/gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/atomicbyte2-ai/gta6-meme-x-01-v3-cand-b/rank.svg)](https://make.fun/competitions/gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/atomicbyte2-ai/gta6-meme-x-01-v3-cand-b/reward.svg)](https://make.fun/competitions/gta6-meme-x-01)
 
 Entry for the make.fun competition **gta6-meme-x-01** ("Post a GTA 6 meme on X").
 
