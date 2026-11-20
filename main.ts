@@ -42,6 +42,14 @@ if (!url.startsWith("https://x.com/") && !url.startsWith("https://twitter.com/")
   fail(`POST.json url must start with https://x.com/ or https://twitter.com/ (got ${url})`);
 }
 
+const postMatch = /^https:\/\/(x\.com|twitter\.com)\/[^/]+\/status\/([0-9]+)$/.exec(url);
+if (!postMatch) {
+  fail(`POST.json url must be an X post URL like https://x.com/<handle>/status/<digits> (got ${url})`);
+}
+if (/^0+$/.test(postMatch[2]!)) {
+  fail("POST.json url still carries the placeholder status id (all zeros); write the real post URL first");
+}
+
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 try {
   mkdirSync(outputDir, { recursive: true });
